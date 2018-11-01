@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F78CE0D0AA15383DCFF2E61B6C5BA51 /* Pods-NavChangeColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 653EDDC029795BE3D14DD289C10F9950 /* Pods-NavChangeColor-dummy.m */; };
+		AEE8A2BC54E3522FF97668FDAA1C7A29 /* WRNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A399ED2A159188B62D7CFFFD275B22 /* WRNavigationBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B81ABBD03458EA7884B63F26B76EE0D5 /* WRCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FA57EB2021D104BD51BEDD7909304C18 /* WRCustomNavigationBar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EB40818209B45FBD2AAB1C5296EDF340 /* WRNavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4E062D9067D0A9D1202E7674CDA624 /* WRNavigationBar-dummy.m */; };
+		F10A2F8AE2CC0C1A2DE5D112C3DD2328 /* WRCustomNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F761A4011C6C127D18B1F4F0CEA906F /* WRCustomNavigationBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE0CD091EB49E59F92254EBE13358FB4 /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 939DE8D13A24E5531CD3C35F623489EA /* WRNavigationBar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBDE53AA7A2AB7FCC2CF969B1DB5FFE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B4DD7E15A7698ACA427C33C8352EEB;
+			remoteInfo = WRNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1685485F2B56B0CDEE5CEC605A275DB9 /* WRNavigationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WRNavigationBar-prefix.pch"; sourceTree = "<group>"; };
+		24A399ED2A159188B62D7CFFFD275B22 /* WRNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRNavigationBar.h; path = WRNavigationBar/WRNavigationBar.h; sourceTree = "<group>"; };
+		2896EFB8A47867ED9FC03A8DA66DEE2D /* Pods-NavChangeColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavChangeColor.release.xcconfig"; sourceTree = "<group>"; };
+		2C2467D342BAA2C1563E1C0AEEF83A5E /* Pods-NavChangeColor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavChangeColor-acknowledgements.plist"; sourceTree = "<group>"; };
+		3383B4FF536BAC9071F1AA208890F616 /* Pods-NavChangeColor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NavChangeColor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		49F3152FE47026647BFB06066FBA795B /* WRNavigationBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WRNavigationBar.xcconfig; sourceTree = "<group>"; };
+		5F761A4011C6C127D18B1F4F0CEA906F /* WRCustomNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRCustomNavigationBar.h; path = WRNavigationBar/WRCustomNavigationBar.h; sourceTree = "<group>"; };
+		653EDDC029795BE3D14DD289C10F9950 /* Pods-NavChangeColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavChangeColor-dummy.m"; sourceTree = "<group>"; };
+		72B21BEA03CCAC903DABC0DA9A3FF89B /* libPods-NavChangeColor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NavChangeColor.a"; path = "libPods-NavChangeColor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		939DE8D13A24E5531CD3C35F623489EA /* WRNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRNavigationBar.m; path = WRNavigationBar/WRNavigationBar.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE4E062D9067D0A9D1202E7674CDA624 /* WRNavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WRNavigationBar-dummy.m"; sourceTree = "<group>"; };
+		BFAAC1E14881E94E7C68B3509B39B519 /* Pods-NavChangeColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavChangeColor.debug.xcconfig"; sourceTree = "<group>"; };
+		E1FC9205885C7073C82D945D326E74D1 /* libWRNavigationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWRNavigationBar.a; path = libWRNavigationBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA57EB2021D104BD51BEDD7909304C18 /* WRCustomNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRCustomNavigationBar.m; path = WRNavigationBar/WRCustomNavigationBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DAAE8C48D25B437C19372C5C02C1563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CCDC491D961CF470F6B3B5AFEF3BFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F2A4AD1AB4F023A965308B1EE2E582 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49F3152FE47026647BFB06066FBA795B /* WRNavigationBar.xcconfig */,
+				BE4E062D9067D0A9D1202E7674CDA624 /* WRNavigationBar-dummy.m */,
+				1685485F2B56B0CDEE5CEC605A275DB9 /* WRNavigationBar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WRNavigationBar";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49D95EFF239005A70C69FAC68F91A33C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72B21BEA03CCAC903DABC0DA9A3FF89B /* libPods-NavChangeColor.a */,
+				E1FC9205885C7073C82D945D326E74D1 /* libWRNavigationBar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D5E7E63EEF85313BC7147307A3F3925 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				855CCB3D7DCFEAA4F8B4BB19B44A7901 /* WRNavigationBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				6D5E7E63EEF85313BC7147307A3F3925 /* Pods */,
+				49D95EFF239005A70C69FAC68F91A33C /* Products */,
+				F62AD7D02E85A069131879B4FAFD5009 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		855CCB3D7DCFEAA4F8B4BB19B44A7901 /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				5F761A4011C6C127D18B1F4F0CEA906F /* WRCustomNavigationBar.h */,
+				FA57EB2021D104BD51BEDD7909304C18 /* WRCustomNavigationBar.m */,
+				24A399ED2A159188B62D7CFFFD275B22 /* WRNavigationBar.h */,
+				939DE8D13A24E5531CD3C35F623489EA /* WRNavigationBar.m */,
+				05F2A4AD1AB4F023A965308B1EE2E582 /* Support Files */,
+			);
+			name = WRNavigationBar;
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		A5704C8FD20C19F805BE781149958503 /* Pods-NavChangeColor */ = {
+			isa = PBXGroup;
+			children = (
+				3383B4FF536BAC9071F1AA208890F616 /* Pods-NavChangeColor-acknowledgements.markdown */,
+				2C2467D342BAA2C1563E1C0AEEF83A5E /* Pods-NavChangeColor-acknowledgements.plist */,
+				653EDDC029795BE3D14DD289C10F9950 /* Pods-NavChangeColor-dummy.m */,
+				BFAAC1E14881E94E7C68B3509B39B519 /* Pods-NavChangeColor.debug.xcconfig */,
+				2896EFB8A47867ED9FC03A8DA66DEE2D /* Pods-NavChangeColor.release.xcconfig */,
+			);
+			name = "Pods-NavChangeColor";
+			path = "Target Support Files/Pods-NavChangeColor";
+			sourceTree = "<group>";
+		};
+		F62AD7D02E85A069131879B4FAFD5009 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5704C8FD20C19F805BE781149958503 /* Pods-NavChangeColor */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		76FEF0D24EDE476FC827F0DE7309A95A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB5CD9C34057488ECF7DB18429F30A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10A2F8AE2CC0C1A2DE5D112C3DD2328 /* WRCustomNavigationBar.h in Headers */,
+				AEE8A2BC54E3522FF97668FDAA1C7A29 /* WRNavigationBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AEA1935D7B7A4B309459AFCC5C19B141 /* Pods-NavChangeColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F2461199C770124C4B5F05CA672CE6 /* Build configuration list for PBXNativeTarget "Pods-NavChangeColor" */;
+			buildPhases = (
+				76FEF0D24EDE476FC827F0DE7309A95A /* Headers */,
+				2A326AFD9FF774E5B3882C97F9FD3F21 /* Sources */,
+				6CCDC491D961CF470F6B3B5AFEF3BFA6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65431EC0295715C1FF4F0EE2977491C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-NavChangeColor";
+			productName = "Pods-NavChangeColor";
+			productReference = 72B21BEA03CCAC903DABC0DA9A3FF89B /* libPods-NavChangeColor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D5B4DD7E15A7698ACA427C33C8352EEB /* WRNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0FE5456E3041532F5D59FB8F17D461E /* Build configuration list for PBXNativeTarget "WRNavigationBar" */;
+			buildPhases = (
+				CBB5CD9C34057488ECF7DB18429F30A9 /* Headers */,
+				7F9FE851D69E43848D594746FC408327 /* Sources */,
+				2DAAE8C48D25B437C19372C5C02C1563 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WRNavigationBar;
+			productName = WRNavigationBar;
+			productReference = E1FC9205885C7073C82D945D326E74D1 /* libWRNavigationBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 49D95EFF239005A70C69FAC68F91A33C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEA1935D7B7A4B309459AFCC5C19B141 /* Pods-NavChangeColor */,
+				D5B4DD7E15A7698ACA427C33C8352EEB /* WRNavigationBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A326AFD9FF774E5B3882C97F9FD3F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F78CE0D0AA15383DCFF2E61B6C5BA51 /* Pods-NavChangeColor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9FE851D69E43848D594746FC408327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81ABBD03458EA7884B63F26B76EE0D5 /* WRCustomNavigationBar.m in Sources */,
+				EB40818209B45FBD2AAB1C5296EDF340 /* WRNavigationBar-dummy.m in Sources */,
+				FE0CD091EB49E59F92254EBE13358FB4 /* WRNavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65431EC0295715C1FF4F0EE2977491C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WRNavigationBar;
+			target = D5B4DD7E15A7698ACA427C33C8352EEB /* WRNavigationBar */;
+			targetProxy = FBDE53AA7A2AB7FCC2CF969B1DB5FFE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F3171A814ED5AFEA019720EA3686F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F3152FE47026647BFB06066FBA795B /* WRNavigationBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WRNavigationBar/WRNavigationBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WRNavigationBar;
+				PRODUCT_NAME = WRNavigationBar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F5D72B07FCF93A17ED116C99327623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2896EFB8A47867ED9FC03A8DA66DEE2D /* Pods-NavChangeColor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		72D6AD47D9C8498B9622F6770E6AD965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F3152FE47026647BFB06066FBA795B /* WRNavigationBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WRNavigationBar/WRNavigationBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WRNavigationBar;
+				PRODUCT_NAME = WRNavigationBar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7317608F6466F7C869E527636B808993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFAAC1E14881E94E7C68B3509B39B519 /* Pods-NavChangeColor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0FE5456E3041532F5D59FB8F17D461E /* Build configuration list for PBXNativeTarget "WRNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3171A814ED5AFEA019720EA3686F34 /* Debug */,
+				72D6AD47D9C8498B9622F6770E6AD965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7F2461199C770124C4B5F05CA672CE6 /* Build configuration list for PBXNativeTarget "Pods-NavChangeColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7317608F6466F7C869E527636B808993 /* Debug */,
+				5F5D72B07FCF93A17ED116C99327623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

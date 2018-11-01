@@ -1,0 +1,16 @@
+PODS:
+  - WRNavigationBar (1.2.0)
+
+DEPENDENCIES:
+  - WRNavigationBar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WRNavigationBar
+
+SPEC CHECKSUMS:
+  WRNavigationBar: dc952230effbb646785f962587caaac06c60f229
+
+PODFILE CHECKSUM: 488785cab13d356ea5509e2c039faae90b0460b0
+
+COCOAPODS: 1.6.0.beta.1
